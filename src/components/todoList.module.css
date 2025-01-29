@@ -7,3 +7,9 @@
   padding: 20px;
   margin-top: 50px;
 }
+
+@media (max-width: 550px){
+  .list {
+    width: 90%;
+  }
+}
