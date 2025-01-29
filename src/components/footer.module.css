@@ -11,3 +11,22 @@
 .item {
   margin: 50px;
 }
+@media (max-width: 550px){
+  .footer {
+    position: fixed;
+    bottom: 0;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    background-color: #f7ca18;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.item {
+  margin: unset;
+}
+}
